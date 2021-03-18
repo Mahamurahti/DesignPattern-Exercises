@@ -17,7 +17,7 @@ public class Main {
         coder.setShoes(factory.createShoes());
 
         System.out.println("\n\n" + coder.getName() + "-" + coder.getOccupation() + " is a student and he's wearing: \n" +
-                            coder.getHat() + ", \n" + coder.getShirt() + ", \n" + coder.getPants() + ", \n" + coder.getShoes());
+                coder.getHat() + ", \n" + coder.getShirt() + ", \n" + coder.getPants() + ", \n" + coder.getShoes());
 
         System.out.println("\n\nAfter a three year time skip...");
 

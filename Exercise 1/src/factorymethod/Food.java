@@ -1,5 +1,5 @@
 package factorymethod;
 
-public interface Ruoka {
+public interface Food {
 
 }

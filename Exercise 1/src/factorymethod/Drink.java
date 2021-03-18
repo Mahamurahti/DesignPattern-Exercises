@@ -1,5 +1,5 @@
 package factorymethod;
 
-public interface Juoma {
+public interface Drink {
 
 }

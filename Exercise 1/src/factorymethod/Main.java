@@ -2,12 +2,12 @@ package factorymethod;
 
 public class Main {
     public static void main(String[] args) {
-        AterioivaOtus opettaja = new Opettaja();
-        AterioivaOtus opiskelija = new Opiskelija();
-        AterioivaOtus siivooja = new Siivooja();
+        EatingBeing teacher = new Teacher();
+        EatingBeing student = new Student();
+        EatingBeing janitor = new Janitor();
 
-        opettaja.aterioi();
-        opiskelija.aterioi();
-        siivooja.aterioi();
+        teacher.haveMeal();
+        student.haveMeal();
+        janitor.haveMeal();
     }
 }

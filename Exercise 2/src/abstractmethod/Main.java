@@ -30,8 +30,6 @@ public class Main {
 
         System.out.println("\n\n" + coder.getName() + "-" + coder.getOccupation() + " is now working and he's wearing: \n" +
                 coder.getHat() + ", \n" + coder.getShirt() + ", \n" + coder.getPants() + ", \n" + coder.getShoes());
-
-        System.out.println();
     }
 
     private static IFactory readFactoryFromFile(String factoryName){

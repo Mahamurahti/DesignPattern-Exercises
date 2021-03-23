@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Exercise 1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercise 2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercise 4/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Exercise 1/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/Exercise 1/out" />
     </content>

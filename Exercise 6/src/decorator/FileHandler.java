@@ -28,7 +28,7 @@ public class FileHandler implements IFileHandling {
                 message += data;
             }
             reader.close();
-            System.out.println(message);
+            System.out.println("Read message: " + message);
         } catch (FileNotFoundException e) {
             System.out.println("Something went wrong.");
             e.printStackTrace();

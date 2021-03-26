@@ -20,7 +20,7 @@ public class UnCipher extends CipherHandler{
             }
             message = uncipher(message);
             reader.close();
-            System.out.println(message);
+            System.out.println("Read message: " + message);
         } catch (Exception e) {
             System.out.println("Something went wrong.");
             e.printStackTrace();

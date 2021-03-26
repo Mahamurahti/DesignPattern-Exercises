@@ -37,7 +37,7 @@ public class UnCipher extends CipherHandler{
         message = message.replaceAll("[6]", "g");
         message = message.replaceAll("[#]", "h");
         message = message.replaceAll("[1]", "i");
-        message = message.replaceAll("[!]", "j");
+        message = message.replaceAll("[ɾ]", "j");
         message = message.replaceAll("[⋊]", "k");
         message = message.replaceAll("[˥]", "l");
         message = message.replaceAll("[m]", "m");

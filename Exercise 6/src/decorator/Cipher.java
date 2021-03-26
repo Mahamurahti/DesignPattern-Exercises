@@ -31,7 +31,7 @@ public class Cipher extends CipherHandler{
         message = message.replaceAll("[g]", "6");
         message = message.replaceAll("[h]", "#");
         message = message.replaceAll("[i]", "1");
-        message = message.replaceAll("[j]", "!");
+        message = message.replaceAll("[j]", "ɾ");
         message = message.replaceAll("[k]", "⋊");
         message = message.replaceAll("[l]", "˥");
         message = message.replaceAll("[m]", "m");

@@ -15,7 +15,7 @@ public class Pokemon {
     }
 
     public void move1(){
-        System.out.println("You used move 1: " + evolutionState.move1().getMoveName() + "!");
+        System.out.println(evolutionState.evolutionName() + " used move 1: " + evolutionState.move1().getMoveName() + "!");
         System.out.println(evolutionState.evolutionName() + " gained " + evolutionState.move1().getExperienceGain() +
                 " experience points!");
 
@@ -25,7 +25,7 @@ public class Pokemon {
     }
 
     public void move2(){
-        System.out.println("You used move 2: " + evolutionState.move2().getMoveName() + "!");
+        System.out.println(evolutionState.evolutionName() + " used move 2: " + evolutionState.move2().getMoveName() + "!");
         System.out.println(evolutionState.evolutionName() + " gained " + evolutionState.move2().getExperienceGain() +
                 " experience points!");
 
@@ -35,7 +35,7 @@ public class Pokemon {
     }
 
     public void move3(){
-        System.out.println("You used move 3: " + evolutionState.move3().getMoveName() + "!");
+        System.out.println(evolutionState.evolutionName() + " used move 3: " + evolutionState.move3().getMoveName() + "!");
         System.out.println(evolutionState.evolutionName() + " gained " + evolutionState.move3().getExperienceGain() +
                 " experience points!");
 
@@ -45,7 +45,7 @@ public class Pokemon {
     }
 
     public void move4(){
-        System.out.println("You used move 4: " + evolutionState.move4().getMoveName() + "!");
+        System.out.println(evolutionState.evolutionName() + " uused move 4: " + evolutionState.move4().getMoveName() + "!");
         System.out.println(evolutionState.evolutionName() + " gained " + evolutionState.move4().getExperienceGain() +
                 " experience points!");
 

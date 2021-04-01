@@ -13,15 +13,13 @@ public class MergeSort implements ISort{
     }
 
     @Override
-    public int[] sort(int[] tableToBeSorted) {
+    public void sort(int[] tableToBeSorted) {
         final long startTime = System.currentTimeMillis();
         mergeSort(tableToBeSorted, 0, Main.MAX - 1);
         final long endTime = System.currentTimeMillis();
 
         Generator.printResults(tableToBeSorted);
         System.out.println("\n\nMergeSort execution time: " + ((endTime - startTime) / 1000F) + " sec");
-
-        return tableToBeSorted;
     }
 
     public static void mergeSort(int[] tableToBeSorted, int start, int end) {

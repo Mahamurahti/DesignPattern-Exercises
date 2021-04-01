@@ -13,15 +13,13 @@ public class QuickSort implements ISort{
     }
 
     @Override
-    public int[] sort(int[] tableToBeSorted) {
+    public void sort(int[] tableToBeSorted) {
         final long startTime = System.currentTimeMillis();
         quickSort(tableToBeSorted, Main.MAX);
         final long endTime = System.currentTimeMillis();
 
         Generator.printResults(tableToBeSorted);
         System.out.println("\n\nQuickSort execution time: " + ((endTime - startTime) / 1000F) + " sec");
-
-        return tableToBeSorted;
     }
 
     public static void quickSort(int[] tableToBeSorted, int values) {

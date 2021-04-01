@@ -13,15 +13,13 @@ public class SelectSort implements ISort{
     }
 
     @Override
-    public int[] sort(int[] tableToBeSorted) {
+    public void sort(int[] tableToBeSorted) {
         final long startTime = System.currentTimeMillis();
         selectSort(tableToBeSorted);
         final long endTime = System.currentTimeMillis();
 
         Generator.printResults(tableToBeSorted);
         System.out.println("\n\nSelectSort execution time: " + ((endTime - startTime) / 1000F) + " sec");
-
-        return tableToBeSorted;
     }
 
     public static void selectSort(int[] tableToBeSorted){

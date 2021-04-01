@@ -1,5 +1,5 @@
 package strategy;
 
 public interface ISort {
-    public int[] sort(int[] tableToBeSorted);
+    public void sort(int[] tableToBeSorted);
 }

@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        Sorter sorter;
+        Sorter sorter = null;
 
         Scanner reader = new Scanner(System.in);
         char select;
@@ -22,26 +22,25 @@ public class Main {
             }catch (Exception e){
                 select = '5';
             }
-            int[] table;
+            int[] table = null;
             switch (select) {
                 case '1':
                     table = Generator.generateNumbers();
                     sorter = new Sorter(SelectSort.getInstance());
-                    sorter.executeStrategy(table);
                     break;
                 case '2':
                     table = Generator.generateNumbers();
                     sorter = new Sorter(MergeSort.getInstance());
-                    sorter.executeStrategy(table);
                     break;
                 case '3':
                     table = Generator.generateNumbers();
                     sorter = new Sorter(QuickSort.getInstance());
-                    sorter.executeStrategy(table);
                     break;
                 case '4':
                     break;
             }
+            if(select != '4')
+                sorter.executeStrategy(table);
         }while (select != '4');
     }
 }

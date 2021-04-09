@@ -1,7 +1,5 @@
 package templatemethod;
 
-import java.util.ArrayList;
-
 public class RockPaperScissor extends Game{
 
     private enum Hands {

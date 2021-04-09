@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args){
         System.out.println("Welcome to a two-player game hub with only two games.");
 
-        Game game;
+        Game game = null;
         char select;
 
         do{
@@ -17,15 +17,15 @@ public class Main {
             switch (select) {
                 case '1':
                     game = new RockPaperScissor();
-                    game.playOneGame(2);
                     break;
                 case '2':
                     game = new GuessTheNumber();
-                    game.playOneGame(2);
                     break;
                 case '3':
                     break;
             }
+            if(select != 3)
+                game.playOneGame(2);
         }while (select != '3');
     }
 }

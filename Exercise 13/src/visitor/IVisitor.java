@@ -1,11 +1,7 @@
 package visitor;
 
-import visitor.bulbasaurLine.BulbasaurState;
-import visitor.bulbasaurLine.IvysaurState;
-import visitor.bulbasaurLine.VenusaurState;
-import visitor.squirtleLine.BlastoiseState;
-import visitor.squirtleLine.SquirtleState;
-import visitor.squirtleLine.WartortleState;
+import visitor.bulbasaurLine.*;
+import visitor.squirtleLine.*;
 
 public interface IVisitor {
     public int visit(BulbasaurState bulbasaurState);

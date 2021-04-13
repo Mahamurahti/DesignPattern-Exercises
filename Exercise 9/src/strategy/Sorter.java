@@ -10,4 +10,8 @@ public class Sorter {
     public void executeStrategy(int[] tableToBeSorted){
         strategy.sort(tableToBeSorted);
     }
+
+    public void setStrategy(ISort strategy) {
+        this.strategy = strategy;
+    }
 }

@@ -26,15 +26,24 @@ public class Main {
             switch (select) {
                 case '1':
                     table = Generator.generateNumbers();
-                    sorter = new Sorter(SelectSort.getInstance());
+                    if(sorter == null)
+                        sorter = new Sorter(SelectSort.getInstance());
+                    else
+                        sorter.setStrategy(SelectSort.getInstance());
                     break;
                 case '2':
                     table = Generator.generateNumbers();
-                    sorter = new Sorter(MergeSort.getInstance());
+                    if(sorter == null)
+                        sorter = new Sorter(MergeSort.getInstance());
+                    else
+                        sorter.setStrategy(SelectSort.getInstance());
                     break;
                 case '3':
                     table = Generator.generateNumbers();
-                    sorter = new Sorter(QuickSort.getInstance());
+                    if(sorter == null)
+                        sorter = new Sorter(QuickSort.getInstance());
+                    else
+                        sorter.setStrategy(SelectSort.getInstance());
                     break;
                 case '4':
                     break;

@@ -20,7 +20,7 @@ public class GuessMaster {
         guesser.getNumberFromMaster(new Memento((int) Math.round(Math.random() * 100)));
     }
 
-    public void checkNumber(Guesser guesser, int guess){
+    public synchronized void checkNumber(Guesser guesser, int guess){
         Memento guesserMemento = (Memento) guesser.giveMementoToMaster();   // Cast the Object memento into a Memento
 
         if(guesserMemento.getCorrectNumber() == guess) {                    // Check if the guess is correct

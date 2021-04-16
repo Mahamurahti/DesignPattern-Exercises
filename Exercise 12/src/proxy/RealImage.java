@@ -13,10 +13,9 @@ public class RealImage implements IImage {
     private BufferedImage image;
     private boolean loaded = false;
 
-    public RealImage(String fileName){
+    public RealImage(String fileName, String name){
         this.fileName = fileName;
-        String[] splitted = fileName.split("\\\\");     // Get the last part of the path (name)
-        this.name = splitted[splitted.length - 1];
+        this.name = name;
     }
 
     private void loadImageFromDisk(){

@@ -12,5 +12,11 @@ public class Main {
                                                             // refer to the same instance
         String flyweight = (fly + weight).intern();
         System.out.println(flyweight == "flyweight");       // The intern() method returns a flyweight
+
+        fly = fly.toUpperCase();
+        System.out.println(fly == "FLY");
+
+        fly = fly.toUpperCase().intern();
+        System.out.println(fly == "FLY");
     }
 }

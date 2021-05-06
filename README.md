@@ -186,7 +186,7 @@ Provide a surrogate or placeholder for another object to control access to it.
 Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined
 without changing the classes of the elements on which it operates.
 
-`Note: Element need to have an accept method which accepts the visit from a visitor. Visitors "visit" with visit(this)`
+`Note: Elements need to have an accept method which accepts the visit from a visitor. Visitors "visit" with visit(this)`
 - Behavioural pattern
 - You can treat Visitor as a powerful version of the Command pattern. Its objects can execute operations over various
   objects of different classes.
@@ -219,7 +219,7 @@ building`
 Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could
 not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
 
-`Note: Can be used to convert legace code to modern code i.e. adapt old thing to new`
+`Note: Can be used to convert legacy code to modern code i.e. adapt old thing to new`
 - Structural pattern
 - Adapter changes the interface of an existing object, while Decorator enhances an object without changing its
   interface. In addition, Decorator supports recursive composition, which isn’t possible when you use Adapter.

@@ -261,7 +261,7 @@ on the context`
 ## Prototype (Exercise 18)
 
 Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an
-existing object, thus boosting performance and keeping memory footprints to a minimum.	
+existing object, thus boosting performance and keeping memory footprints to a minimum.
 
 `Note: Shallow copy (copy just the object with inner objects' pointers pointing to the same place) vs. Deep copy (full 
 copy with new pointers for the objects inside the copied object)`

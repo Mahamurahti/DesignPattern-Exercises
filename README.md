@@ -220,6 +220,8 @@ Convert the interface of a class into another interface clients expect. An adapt
 not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
 
 `Note: Can be used to convert legace code to modern code i.e. adapt old thing to new`
+
+`Note: Can be implemented by extending or defining the legacy class as an object inside the adapter`
 - Structural pattern
 - Adapter changes the interface of an existing object, while Decorator enhances an object without changing its
   interface. In addition, Decorator supports recursive composition, which isn’t possible when you use Adapter.
